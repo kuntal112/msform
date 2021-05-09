@@ -5,7 +5,7 @@ import DocsUpload from './DocsUpload';
 import Confirm from './Confirm';
 import Success from "./Success";
 
-
+// not using doc2 & doc3
 export default class UserForm extends Component {
     state = {
         step: 1,
