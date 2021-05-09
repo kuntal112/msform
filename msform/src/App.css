@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.data-forms{
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 320px;
+    max-width: 400px;
+    background-image: linear-gradient(to right top, #c1cbff, #b8b4ff, #c096ff, #d66eff, #f319ff);
+}
+.container h1{
+    background-color: #00C9FF;
+    
+    color:White;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.data-forms .inputfield{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield input,textarea{
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 25px;
+}
+textarea{
+    font-size: 15px;
+}
+.inputfield div{
+    display: flex;
+    flex-direction: column;
+}
+.inputfield div label{
+    font-weight: bold;
+}
+
+.data-forms .inputfield-list{
+    margin-top: 30px;
+    width:320px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.data-forms .inputfield-list li .field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+}
+.data-forms .inputfield-list li .value{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);   
+    overflow: hidden; 
+    height: 40px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.data-forms .buttoncont{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.data-forms .buttoncont button{
+    width: 120px;
+    padding: 20px;
+    background-color: rgb(8, 8, 224);
+    color: white;
+    font-weight:bolder ;
+    font-size: large;
+    border-radius: 10px;
+}
