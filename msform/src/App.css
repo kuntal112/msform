@@ -56,11 +56,12 @@ textarea{
 
 .data-forms .inputfield-list{
     margin-top: 30px;
-    width:320px;
+    /* width:320px; */
     display: flex;
     flex-direction: column;
     list-style: none;
     text-align: center;
+    padding: 5px;
     border-radius: 8px;
     
 }
@@ -73,15 +74,19 @@ textarea{
     font-size: 20px;
 }
 .data-forms .inputfield-list li .value{
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     font-weight: bolder;
     background-color: rgb(255, 255, 255);   
-    overflow: hidden; 
-    height: 40px;
+    /* overflow: hidden;  */
+   min-height: 40px;
+   word-break: break-word;
+   /* overflow-wrap: break-word;
+   word-wrap: break-word;
+   hyphens: auto; */
     font-size: 22px;
     margin-bottom: 5px;
 }
