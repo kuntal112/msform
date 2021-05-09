@@ -23,7 +23,6 @@ export default class ProfessionalInfo extends Component {
                 <div>
                 <label>Company Name</label>
                 <input 
-                placeholder="with whom you are working"
                 type="text" 
                 value={values.companyName}
                 onChange={changeHandler("companyName")}
